@@ -75,51 +75,6 @@ class ModalQRCode extends React.Component {
           onConfirm={this.handleTimePicked}
           onCancel={this.hideTimePicker}
         />
-        {/* <React.Fragment>
-          <View style={styles.overlay}>
-            <ModalHeader navigation={navigation} style={styles.modalHeader} />
-
-            <View style={styles.containerBar}>
-              <View style={styles.containerBarIcons}>
-                <Image source={images.iconQRBike} style={styles.iconBike} />
-                <Image
-                  source={images.iconQRScooter}
-                  style={styles.iconScooter}
-                />
-              </View>
-            </View>
-
-            <View style={styles.containerLabel}>
-              <Text style={styles.label}>Scan QR Code</Text>
-              <Text>{navigation.getParam('name', 'NO-ID')}</Text>
-            </View>
-
-            <View style={styles.containerHelperBox}>
-              <View style={styles.boxSpacer} />
-              <View style={styles.box} />
-              <View style={styles.boxSpacer} />
-            </View>
-
-            <View style={[styles.containerBar, gStyle.flex1]}>
-              <View style={[styles.containerBarIcons, styles.barWidth]}>
-                <View style={styles.containerIcon}>
-                  <Image
-                    source={images.iconQRFlashlight}
-                    style={styles.iconBottom}
-                  />
-                  <Text style={styles.iconLabel}>Flashlight</Text>
-                </View>
-                <View style={styles.containerIcon}>
-                  <Image
-                    source={images.iconQRIdCode}
-                    style={styles.iconBottom}
-                  />
-                  <Text style={styles.iconLabel}>Enter ID instead</Text>
-                </View>
-              </View>
-            </View>
-          </View>
-        </React.Fragment> */}
       </View>
     );
   }
