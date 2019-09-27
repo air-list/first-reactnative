@@ -4,7 +4,7 @@ import { AppLoading } from 'expo';
 import { func } from './src/constants';
 
 import Stack from './src/navigation/Stack';
-
+// Test
 export default class App extends React.Component {
   constructor(props) {
     super(props);
